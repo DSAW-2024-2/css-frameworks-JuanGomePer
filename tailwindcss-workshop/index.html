@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body> 
-    Your Result
-    76
-    of 100
   
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
-
+  <body class="bg-gray-100 h-screen flex justify-center items-center">
+    <div class="bg-[#f3eae3] h-[80vh] w-[90%] flex justify-center items-center">
+      <div class="flex flex-col md:flex-row border rounded-3xl overflow-hidden bg-white w-full md:w-[80%] lg:w-[50%] lg:h-[55vh] md:h-[60vh]">
+        <div class="w-full md:w-full">
+          <img src="/assets/images/image-product-mobile.jpg" alt="Mobile Image" class="block md:hidden w-full object-cover h-full">
+          <img src="/assets/images/image-product-desktop.jpg" alt="Desktop Image" class="hidden md:block w-full object-cover h-full">
+        </div>
+        <div class="p-6 flex flex-col justify-center">
+          <p class="mt-3 mb-1 tracking-wider text-gray-500">PERFUME</p>
+          <h2 class="text-center font-serif font-bold text-xl">Gabrielle Essence Eau De Parfum</h2>
+          <p class="text-center text-gray-400 mt-4 font-sans">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+          <div class="flex justify-center items-center mt-4">
+            <h2 class="text-green-600 font-serif text-2xl mr-3">$149.99</h2>
+            <p class="text-gray-400 line-through">$169.99</p>
+          </div>
+          <button class="mt-4 bg-green-600 text-white px-4 py-2 rounded flex justify-center items-center">
+            <svg width="20" height="21" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+              <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+            </svg>
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
+  
 </html>
